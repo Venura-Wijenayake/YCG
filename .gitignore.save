@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Envs
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# API keys / config
+config/settings.yaml
+
+# Media
+assets/audio/
+assets/images/
+assets/videos/
