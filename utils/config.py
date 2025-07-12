@@ -10,4 +10,4 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 print("OPENAI_API_KEY:", OPENAI_API_KEY)
 print("GITHUB_TOKEN:", GITHUB_TOKEN)
 
-# i am a fiesty watermelon
+# i am a fiesty watermelon boy
