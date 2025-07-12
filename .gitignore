@@ -14,7 +14,8 @@ Thumbs.db
 # VS Code
 .vscode/
 
-# API keys / config
+# API Keys / config
+.env
 config/settings.yaml
 
 # Media
