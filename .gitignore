@@ -22,3 +22,7 @@ config/settings.yaml
 assets/audio/
 assets/images/
 assets/videos/
+
+# Ignore output files but keep folder
+outputs/*
+!outputs/.gitkeep
