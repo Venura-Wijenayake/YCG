@@ -8,8 +8,12 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
 
-print("OPENAI_API_KEY:", OPENAI_API_KEY)
-print("GITHUB_TOKEN:", GITHUB_TOKEN)
+# ✅ Optional debug — masked if needed
+def _mask(key, visible=4):
+    if not key or len(key) <= visible * 2:
+        return '*' * len(key)
+    return key[:visible] + '*' * (len(key) - visible * 2) + key[-visible:]
 
-# i am a feisty watermelon boy
-#I am a terrible cow
+# Optional debugging:
+#print("OPENAI_API_KEY:", _mask(OPENAI_API_KEY))
+#print("GITHUB_TOKEN:", _mask(GITHUB_TOKEN))

@@ -1,11 +1,17 @@
 # main.py
 
 from modules.generator import generate_content
-from modules.script_generator import save_output_to_file  # Adjust if needed
+from modules.script_generator import save_output_to_file
+from utils.key_validator import run_all_checks
 
 def main():
     print("🎬 YouTube Content Generator")
     print("============================\n")
+
+    # 🛑 Run key validation before anything else
+    if not run_all_checks():
+        print("\n🚫 Aborting due to invalid API keys.")
+        return
 
     topic = input("Enter a YouTube topic: ").strip()
     if not topic:
@@ -29,7 +35,6 @@ def main():
             script=result['script'],
             description=result['description']
         )
-
     else:
         print("❌ Failed to generate content. Please check your API key and try again.")
 
