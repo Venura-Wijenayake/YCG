@@ -1,24 +1,18 @@
+# modules/generator.py
+
 import openai
 import os
 from utils.config import OPENAI_API_KEY
+from modules.template_manager import build_prompt  # 🔥 new import
 
 openai.api_key = OPENAI_API_KEY  # This automatically applies bearer auth
 
-def generate_content(topic: str) -> dict:
-    prompt = f"""Generate a full YouTube content package based on the topic: "{topic}".
-    
-1. Title (engaging, <60 chars)
-2. Description (SEO-friendly, 2–3 sentences)
-3. Tags (10–15, comma-separated)
-4. Script (full video narration, 200–300 words)
 
-Respond in the following format:
-Title: ...
-Description: ...
-Tags: ...
-Script:
-...
-"""
+def generate_content(topic: str, format_type: str = "default") -> dict:
+    """
+    Generates a full YouTube content package based on the topic and selected format style.
+    """
+    prompt = build_prompt(topic, format_type)  # 🔥 new: dynamic prompt
 
     try:
         response = openai.ChatCompletion.create(
@@ -32,7 +26,7 @@ Script:
         )
         content = response.choices[0].message["content"]
 
-        # Parsing stays the same
+        # 🔄 Parsing stays the same
         lines = content.splitlines()
         data = {"title": "", "description": "", "tags": "", "script": ""}
         key = None
