@@ -1,0 +1,73 @@
+=== TOPIC ===
+The Truth About Duck Fashion Shows
+
+=== PROMPT ===
+**Title: "The Truth About Duck Fashion Shows"**
+
+Intro:
+- Start with a quirky and comedic narration style to grab attention.
+- Introduce the topic in a fun and engaging way, setting the tone for the rest of the video.
+- Drop a humorous line to hook viewers right from the start.
+
+Body:
+- Share fascinating facts about duck fashion shows, mixing humor and interesting insights.
+- Build tension and curiosity like a trailer to keep viewers engaged.
+- Include surprising twists and unexpected information to entertain and educate the audience.
+- Use fast pacing typical of YouTube Shorts to maintain energy and momentum throughout the video.
+
+Conclusion:
+- Wrap up with a funny conclusion that leaves viewers with a memorable takeaway.
+- Encourage viewers to like, share, and subscribe with a witty call-to-action.
+
+Word Count Range: 250-350 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+These exact phrases must appear in the script: ""Yes, ducks wear shoes — and strut like they own Milan."", ""What began as a casual waddle… ended in a feathery frenzy."", ""Some ducks wear capes. That's it. That's the plot.""
+
+Start with these tags and add more if helpful (max 15 total): ducks, funny animals, animal runway, viral birds, farm humor, chaotic cute
+
+=== RESPONSE ===
+Title: "The Truth About Duck Fashion Shows"
+Description: Unveil the hilariously unexpected world of duck fashion shows in this comedic and quirky exploration.
+Tags: ducks, funny animals, animal runway, viral birds, farm humor, chaotic cute
+Script:
+[Opening shot of a duck strutting down a makeshift runway, wearing a tiny, fashionable hat]
+Narrator: "Yes, ducks wear shoes — and strut like they own Milan."
+[Cut to a montage of ducks sporting various outfits and accessories, accompanied by upbeat music]
+Narrator: What began as a casual waddle… ended in a feathery frenzy.
+[Transition to a duck with a cape dramatically flowing behind it]
+Narrator: Some ducks wear capes. That's it. That's the plot.
+[Quick cuts of ducks in elaborate costumes, eliciting laughter from the audience]
+Narrator: Duck fashion shows are the latest craze taking the animal kingdom by storm. From feathered fascinators to ducky tuxedos, these stylish birds are redefining the runway.
+[Build anticipation with fast-paced clips of ducks strutting confidently]
+Narrator: But behind the glitz and glamour lies a web of intrigue and drama. Who will be crowned the "Mallard of the Year"?
+[Reveal a group of ducks squabbling over a sparkly bowtie]
+Narrator: The competition is fierce, feathers will fly, and beaks will beak! Stay tuned for the most dramatic duck fashion showdown yet.
+[Conclude with a group of ducks posing for a final photo, looking fabulous and ridiculous at the same time]
+Narrator: And that's the naked truth about duck fashion shows. Remember, in the world of feathers and sequins, anything quacks. Like, share, and subscribe for more fowl play!
+[End screen with a call-to-action and playful graphics]
+Style Guide:
+- Voice: Quirky and comedic, engaging viewers with humor and fun insights.
+- Tone: Light-hearted and entertaining, keeping the audience entertained throughout.
+- Perspective: Third-person narrator with an omniscient and humorous tone.
+- Sentences: Mix punchy one-liners with longer descriptions to maintain energy and comedic timing.
+- Hook early with the humor and intrigue of duck fashion shows to capture viewers' attention.
+- End on a funny and memorable note, encouraging audience interaction and engagement.

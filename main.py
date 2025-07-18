@@ -3,6 +3,7 @@ from modules.script_generator import save_output_to_file
 from modules.input_prompter import pre_prompt_flow
 from modules.script_parser import parse_output_file
 from utils.key_validator import run_all_checks
+from utils.plot_point_parser import parse_plot_points  # ✅ Optional debug import
 
 def main():
     print("🎬 YouTube Content Generator")
@@ -30,6 +31,22 @@ def main():
             if not user_inputs:
                 print("❌ Input aborted or invalid.")
                 continue
+
+            # ✅ Debug output for parsed plot points
+            parsed = parse_plot_points(user_inputs["must_use_phrases"])
+            print("\n📊 Parsed Tone Directives:")
+            if parsed["tone_directives"]:
+                for td in parsed["tone_directives"]:
+                    print(f" - {td}")
+            else:
+                print(" - (None)")
+
+            print("📌 Literal Quotes:")
+            if parsed["literal_quotes"]:
+                for q in parsed["literal_quotes"]:
+                    print(f" - \"{q}\"")
+            else:
+                print(" - (None)")
 
             print("\n🟡 [Main] Preparing to call generate_content()...")
             print(f"🔍 Topic: {user_inputs['topic']}")
@@ -94,7 +111,7 @@ def main():
                     topic=parsed["topic"],
                     style_description="default structure, helpful tone",
                     custom_description=parsed["description"],
-                    must_use_phrases=[],
+                    must_use_phrases=[],  # ⚠ Legacy files don't store style hints
                     manual_tags=parsed["tags"].split(","),
                     strict_tag_limit=True
                 )

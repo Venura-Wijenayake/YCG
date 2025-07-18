@@ -1,0 +1,88 @@
+=== TOPIC ===
+The Most Cursed Fast Food Mascots (Ranked)
+
+=== PROMPT ===
+**Title: The Most Cursed Fast Food Mascots (Ranked)**
+
+**Structure:**
+1. Introduce the video with a horror stinger - "Drop this like a horror stinger."
+2. Dive into the history and background of each fast food mascot.
+3. Roast the mascots with dark comedy commentary.
+4. Rank the mascots from least to most cursed.
+5. Conclude with a hard-cut punchline.
+
+**Mood:**
+Fast-paced, dark comedy, mockumentary narration.
+Include elements of a late-night roast and YouTube deep-dive.
+Mix humor with a slightly eerie tone.
+
+**Voice:**
+Engaging and humorous narrator.
+Maintain a sarcastic and slightly sinister tone.
+Create suspenseful moments and deliver punchlines effectively.
+
+**Word Count Range:**
+800-1000 words.
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+These exact phrases must appear in the script: ""The Burger King doesn’t blink. He watches. Always."", ""Ronald McDonald? More like Ronald McMenace."", ""Wendy's pigtailed stare has seen things."", ""Jack in the Box looks like he just lost custody of the fry kids."", ""The Noid. That’s it. That’s the villain.""
+
+=== RESPONSE ===
+Title: The Most Cursed Fast Food Mascots (Ranked)
+Description: Join us on a darkly comedic journey as we explore the history and rank the most cursed fast food mascots. Dive into the eerie world of these iconic characters as we roast them with sinister humor.
+Tags: Fast food, cursed mascots, dark comedy, mockumentary, ranking
+
+Script:
+[Intro with horror stinger]
+Narrator: "Drop this like a horror stinger."
+
+Narrator: Fast food joints are known for their iconic mascots, but have you ever stopped to think about how cursed some of them truly are? Today, we're diving deep into the shadowy pasts of these characters, from the mildly unsettling to the downright horrifying. Buckle up, because things are about to get darkly delicious.
+
+[Narrator sets the eerie tone]
+Narrator: The Burger King doesn’t blink. He watches. Always.
+
+[Narrator introduces Ronald McDonald]
+Narrator: Ah, Ronald McDonald? More like Ronald McMenace. This clown has been lurking in the shadows of our childhoods for far too long. But what dark secrets lie behind that painted smile?
+
+[Narrator explores Wendy's mascot]
+Narrator: Wendy's pigtailed stare has seen things. Those innocent eyes hold untold horrors, lurking just beneath the surface. What is she plotting behind that sweet facade?
+
+[Narrator shifts to Jack in the Box mascot]
+Narrator: Jack in the Box looks like he just lost custody of the fry kids. There's something unsettling about a man with a giant, grinning head. What's he hiding in that oversized noggin of his?
+
+[Narrator delves into The Noid]
+Narrator: The Noid. That’s it. That’s the villain. A creature of chaos, a harbinger of pizza-related disasters. Beware the Noid, for he brings only ruination and despair.
+
+[Narrator ranks the mascots]
+Narrator: Now, it's time to rank these cursed mascots from the least to the most unsettling. Who will reign supreme in the pantheon of fast food nightmares?
+
+[Narrator concludes with a punchline]
+Narrator: And there you have it, folks. The most cursed fast food mascots, each one more unsettling than the last. Remember, the next time you take a bite of that burger or sip that soda, these mascots may be watching. Stay hungry, stay scared.
+
+[Outro with a hard-cut punchline]
+
+Style Guide:
+- Voice: Sarcastic and slightly sinister, engaging and humorous.
+- Tone: Fast-paced, dark comedy, with elements of late-night roast and eerie YouTube deep-dive.
+- Perspective: Third-person narrator with a sarcastic and slightly sinister tone.
+- Sentences: Vary pace, mix punchy one-liners with longer descriptions to build suspense.
+- Avoid filler phrases and focus on building drama with each line.
+- Use provided phrases to enhance the darkly comedic tone throughout the script.

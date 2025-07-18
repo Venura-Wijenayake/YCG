@@ -1,27 +1,59 @@
-# YCG – YouTube Content Generator
+# 🎬 YCG — YouTube Content Generator
 
-A fully automated, AI-powered YouTube content generator using GPT, TTS, and ffmpeg.
-
-## 🚀 Features
-- 🔍 Topic selection (manual or automated)
-- 🧠 Script generation with OpenAI
-- 🗣️ Voiceover via TTS (Google, ElevenLabs, etc.)
-- 🖼️ Visuals from image APIs or static images
-- 🎞️ Video composed with ffmpeg
-- 🪄 Optional: thumbnail/title/auto-upload
-
-## 🛠️ Built With
-- Python
-- OpenAI API
-- pyttsx3 / Google TTS
-- ffmpeg
-- YAML + modular Python architecture
-
-## 📌 Status
-✅ MVP architecture scaffolded  
-✅ GitHub repo initialized  
-🔜 Next up: Script generation module
+An AI-powered pipeline that takes your idea from **topic** to **talking thumbnail**.  
+YCG turns raw prompts into fully voiced, fully edited YouTube videos — all with zero editing skills required.
 
 ---
 
-> Built as a scalable, production-ready content automation system.
+## ⚡ What It Does
+
+- 🔍 **Smart Topic Selection** — choose your own or generate it on the fly  
+- 🧠 **Scriptwriting** — powered by GPT and enhanced with custom tone injection  
+- 🎙️ **Voiceover Generation** — realistic narration using Google TTS or ElevenLabs  
+- 🖼️ **Visual Assembly** — pair narration with imagery (APIs or static)  
+- 🎞️ **Video Compilation** — output clean, synced MP4s using ffmpeg  
+- 🖼️ **Optional Add-ons** — auto-thumbnailing, SEO titles, even upload automation
+
+---
+
+## 🛠️ Tech Stack
+
+- 🐍 Python
+- 🤖 OpenAI GPT (for scriptwriting)
+- 🗣️ pyttsx3, Google TTS, ElevenLabs (for voice)
+- 🎬 ffmpeg (video rendering)
+- ⚙️ YAML + modular Python (easy to configure and scale)
+
+---
+
+## 🚧 Project Status
+
+- ✅ MVP architecture scaffolded  
+- ✅ GitHub repo initialized  
+- 🔜 **Next:** Script generation module + voice layer integration
+
+---
+
+## 💡 Vision
+
+YCG isn’t just a gimmick — it’s a full-stack, modular content automation engine.  
+Built to support batch pipelines, stylized series, and even auto-upload workflows.
+
+> One topic. One command. One fully edited video.
+
+---
+
+## 📎 Quick Start (coming soon)
+
+```bash
+git clone https://github.com/your-username/ycg.git
+cd ycg
+pip install -r requirements.txt
+python main.py
+
+
+### Step 1: User Prompt Flow
+![Prompt Input](assets/images/A1.jpg)
+
+### Step 2: Generation Starts
+![Generation Trigger](assets/images/A2.jpg)

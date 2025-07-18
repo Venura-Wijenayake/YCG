@@ -1,0 +1,78 @@
+=== TOPIC ===
+Why Dinosaurs Would've Been Terrible Roommates
+
+=== PROMPT ===
+**Title: Why Dinosaurs Would've Been Terrible Roommates**
+
+**Structure:**
+1. Introduction:
+   - Drop this like a revelation: Introduce the topic in a mysterious and intriguing way.
+2. Body:
+   - Whisper this like a conspiracy: Share specific reasons why dinosaurs would've been disastrous roommates.
+   - Yell this like a red flag: Emphasize the dangers and chaos that could have ensued.
+   - Build this like a slow horror: Paint a vivid picture of the potential disasters.
+3. Conclusion:
+   - Just include: Wrap up with a humorous yet ominous conclusion to tie it all together.
+
+**Tone:**
+- Fast-paced, chaotic storytelling with unreliable narrator energy.
+- Mix of dropping revelations, whispering conspiracies, yelling red flags, and building slow horror.
+
+**Voice:**
+- Imagine a history professor slowly losing it mid-lecture.
+
+**Word Count Range:**
+- 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+These exact phrases must appear in the script: ""They didn’t go extinct. They just got evicted for noise complaints."", ""The triceratops invented passive aggression."", ""T-Rex couldn’t do dishes. Arms too short. Excuses too long."", ""Imagine waking up at 2 a.m. to the sound of claws on hardwood."", ""We lost our deposit because the velociraptor used the bathtub as a meat locker.""
+
+=== RESPONSE ===
+Title: Why Dinosaurs Would've Been Terrible Roommates
+Description: Explore the chaotic and disastrous scenarios that would have unfolded if dinosaurs were roommates.
+Tags: dinosaurs, roommates, chaos, disasters, humor
+
+Script:
+[Introduction]
+Narrator (whispering conspiratorially): Imagine a world where dinosaurs roamed not just the earth but also your living room. What if these ancient creatures were your roommates, causing chaos at every turn? Hold on tight as we unravel why dinosaurs would've been the worst housemates in history.
+
+[Body]
+Narrator (dropping revelations): They didn’t go extinct. They just got evicted for noise complaints. Yes, that's right. The real reason dinosaurs disappeared from the planet was not a cataclysmic event but rather their inability to keep the volume down.
+
+Narrator (yelling red flag): T-Rex couldn’t do dishes. Arms too short. Excuses too long. Can you imagine the mess in the kitchen if a massive Tyrannosaurus Rex was your roommate? Plates piled up, food scraps everywhere – a disaster waiting to happen.
+
+Narrator (building slow horror): Imagine waking up at 2 a.m. to the sound of claws on hardwood. The unmistakable sound of a velociraptor prowling the halls, looking for a late-night snack. Sleepless nights would become the norm with these prehistoric predators lurking around your home.
+
+Narrator (whispering conspiratorially): The triceratops invented passive aggression. Picture coming home to find passive-aggressive notes written in ancient hieroglyphics, hinting at your roommate's displeasure over shared spaces and belongings. The tension would be palpable.
+
+Narrator (yelling red flag): We lost our deposit because the velociraptor used the bathtub as a meat locker. The horror of discovering your bathroom turned into a makeshift storage space for raw meat by your reptilian housemate – a nightmare scenario no security deposit could cover.
+
+[Conclusion]
+Narrator: In conclusion, while dinosaurs may have been fascinating creatures from afar, having them as roommates would have been a disaster waiting to happen. From noisy neighbors to messy housemates, the chaos they would bring into your life is a saga best left in the past. Remember, be grateful for your human roommates – they may not be perfect, but at least they don't have claws and teeth to contend with.
+
+Style Guide:
+- Voice: Fast-paced, chaotic storytelling with unreliable narrator energy.
+- Tone: Mix of dropping revelations, whispering conspiracies, yelling red flags, and building slow horror.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned).
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Phrases: Include the specified phrases seamlessly into the script.
+- Hook: Start with a mysterious and intriguing introduction to engage the audience.
+- Conclusion: Wrap up with a humorous yet ominous conclusion to tie the narrative together.

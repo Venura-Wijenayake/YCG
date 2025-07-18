@@ -1,0 +1,40 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...UFAEA
+
+=== USER INPUT ===
+"Fast-paced, dark comedy with mockumentary narration — think YouTube deep-dive meets late-night roast"
+
+Incorporate tone ideas like: Drop this like a horror stinger; Build this like a roast; Reveal this gently; Hard cut punchline; Just include
+
+=== TOPIC ===
+The Most Cursed Fast Food Mascots (Ranked)
+
+=== GPT PROMPT OUTPUT ===
+**Title: The Most Cursed Fast Food Mascots (Ranked)**
+
+**Structure:**
+1. Introduce the video with a horror stinger - "Drop this like a horror stinger."
+2. Dive into the history and background of each fast food mascot.
+3. Roast the mascots with dark comedy commentary.
+4. Rank the mascots from least to most cursed.
+5. Conclude with a hard-cut punchline.
+
+**Mood:**
+Fast-paced, dark comedy, mockumentary narration.
+Include elements of a late-night roast and YouTube deep-dive.
+Mix humor with a slightly eerie tone.
+
+**Voice:**
+Engaging and humorous narrator.
+Maintain a sarcastic and slightly sinister tone.
+Create suspenseful moments and deliver punchlines effectively.
+
+**Word Count Range:**
+800-1000 words.
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

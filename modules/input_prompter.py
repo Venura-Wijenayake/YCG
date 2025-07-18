@@ -7,19 +7,15 @@ def pre_prompt_flow(_) -> dict:
     print("\n🧠 Pre-Prompt Setup")
     print("====================\n")
 
-    # 🎨 Freeform style input
-    print("💡 Describe the desired tone, pacing, and structure (e.g., 'funny, fast-paced, top five style'):")
-    style_description = input("Style description: ").strip()
-
-    if not style_description:
-        print("⚠️ No style entered. Returning to main menu.")
-        return None
-
-    # 🧠 Topic input
-    topic = input("\nEnter a YouTube topic: ").strip()
+    # 🧠 Topic first
+    topic = input("Enter a YouTube topic: ").strip()
     if not topic:
         print("⚠️ No topic entered. Returning to main menu.")
         return None
+
+    # 🎨 Style input
+    print("\n💡 Describe the desired tone, pacing, and structure (e.g., 'funny, fast-paced, top five style'):")
+    style_description = input("Style description: ").strip()
 
     # 🏷️ Manual tag input
     manual_tags = []
@@ -41,19 +37,19 @@ def pre_prompt_flow(_) -> dict:
         custom_description = input("Enter your custom description: ").strip()
 
     # 🧩 Must-use phrases or plot points
-    must_use_phrases = []
+    raw_phrases = []
     print("\nEnter up to 5 phrases or plot points that must appear in the script:")
     for i in range(5):
         phrase = input(f"Phrase {i+1} (or press Enter to skip): ").strip()
         if not phrase:
             break
-        must_use_phrases.append(phrase)
+        raw_phrases.append(phrase)
 
     return {
-        "style": style_description,
         "topic": topic,
+        "style": style_description,
         "manual_tags": manual_tags,
         "strict_tag_limit": strict_tag_limit,
         "custom_description": custom_description,
-        "must_use_phrases": must_use_phrases
+        "must_use_phrases": raw_phrases  # 🟢 Plain strings — now correct
     }

@@ -1,11 +1,11 @@
-# modules/generator.py
-
 import openai
 import os
+from datetime import datetime
+
 from utils.config import OPENAI_API_KEY
+from utils.plot_point_parser import parse_plot_points  # ✅ Updated interface
 from modules.style_enforcer import apply_signature_tone
 from modules.style_interpreter import interpret_style_input
-from datetime import datetime
 
 openai.api_key = OPENAI_API_KEY
 
@@ -27,11 +27,26 @@ def generate_content(
     if must_use_phrases is None:
         must_use_phrases = []
 
-    # 🧩 Extra Instructions
+    # ✅ Step 1: Parse plot points
+    parsed = parse_plot_points(must_use_phrases)
+    tone_directives = parsed["tone_directives"]
+    literal_quotes = parsed["literal_quotes"]
+
+    # ✅ Step 2: Merge tone guidance into style description
+    combined_style = style_description.strip()
+    if tone_directives:
+        combined_style += "\n\nIncorporate tone ideas like: " + "; ".join(tone_directives)
+
+    # ✅ Step 3: Build prompt
+    prompt = interpret_style_input(combined_style, topic)
+    prompt += apply_signature_tone()
+
+    # ✅ Step 4: Add instructions
     extra_instructions = ""
-    if must_use_phrases:
-        extra_instructions += "\n\nIncorporate the following phrases or plot points into the script: "
-        extra_instructions += ", ".join(f'"{p}"' for p in must_use_phrases)
+
+    if literal_quotes:
+        extra_instructions += "\n\nThese exact phrases must appear in the script: "
+        extra_instructions += ", ".join(f'"{q}"' for q in literal_quotes)
 
     if custom_description:
         extra_instructions += f"\n\nUse this description instead of generating one: \"{custom_description}\""
@@ -43,11 +58,9 @@ def generate_content(
         else:
             extra_instructions += f"\n\nStart with these tags and add more if helpful (max 15 total): {tag_note}"
 
-    # 🧠 Build Prompt
-    prompt = interpret_style_input(style_description, topic)
-    prompt += apply_signature_tone()
     prompt += extra_instructions
 
+    # ✅ Step 5: Call OpenAI
     try:
         print("\n🟡 [Content GPT] Sending final script generation prompt to OpenAI...")
 
@@ -64,7 +77,7 @@ def generate_content(
         content = response.choices[0].message["content"]
         print("🟢 [Content GPT] Script content received from OpenAI!")
 
-        # 📝 Log everything
+        # ✅ Log everything
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         log_path = os.path.join(LOG_DIR, f"content_log_{timestamp}.txt")
         with open(log_path, "w", encoding="utf-8") as f:
@@ -75,13 +88,12 @@ def generate_content(
             f.write("=== RESPONSE ===\n")
             f.write(content.strip() + "\n")
 
-        # ✅ Robust Parsing
+        # ✅ Extract from response
         data = {"title": "", "description": "", "tags": "", "script": ""}
         current_section = None
 
         for line in content.splitlines():
             lower = line.strip().lower()
-
             if lower.startswith("title:"):
                 current_section = "title"
                 data[current_section] = line.split(":", 1)[1].strip()
@@ -97,11 +109,11 @@ def generate_content(
             elif current_section:
                 data[current_section] += line.strip() + "\n"
 
-        # Clean up extra whitespace
+        # Final cleanup
         for k in data:
             data[k] = data[k].strip()
 
-        # 🧪 Validation Warnings
+        # ✅ Validation Warnings
         if not data["script"]:
             print("🔴 [Content GPT] ❗ Script content not found in parsed response!")
         if not data["title"]:

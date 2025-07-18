@@ -1,0 +1,37 @@
+=== OPENAI_API_KEY USED ===
+sk-pr..._uBoA
+
+=== USER INPUT ===
+Fast-paced, paranoid inner monologue — like a romcom character narrating their own emotional breakdown while explaining quantum mechanics.
+
+Incorporate tone ideas like: Drop this like an intrusive thought; Just include; This one's a soft reveal; Yell this like a mistake; Build tension like a thriller
+
+=== TOPIC ===
+Why Time Travel Would Be a Terrible First Date Idea
+
+=== GPT PROMPT OUTPUT ===
+**Title: "Why Time Travel Would Be a Terrible First Date Idea"**
+
+Structure:
+1. Introduction (Drop this like an intrusive thought)
+2. Soft reveal: Why time travel sounds exciting at first
+3. Build tension like a thriller: The hidden dangers of time travel
+4. Yell this like a mistake: Common time travel mishaps
+5. Just include: How time travel could ruin a first date
+6. Conclusion: Wrap up with a fast-paced summary of the risks
+
+Tone & Mood:
+- Fast-paced, paranoid inner monologue
+- Romcom character narrating their own emotional breakdown
+- Explaining quantum mechanics with a touch of humor
+- Dropping insights like intrusive thoughts
+- Soft reveals and tense moments like a thriller
+
+Word Count Range: 500-600 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

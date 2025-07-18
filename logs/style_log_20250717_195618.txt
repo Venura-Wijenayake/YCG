@@ -1,0 +1,37 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...UFAEA
+
+=== USER INPUT ===
+comedic narration, YouTube Shorts energy
+
+Incorporate tone ideas like: Drop this like a twist; Build tension like a trailer
+
+=== TOPIC ===
+The Truth About Duck Fashion Shows
+
+=== GPT PROMPT OUTPUT ===
+**Title: "The Truth About Duck Fashion Shows"**
+
+Intro:
+- Start with a quirky and comedic narration style to grab attention.
+- Introduce the topic in a fun and engaging way, setting the tone for the rest of the video.
+- Drop a humorous line to hook viewers right from the start.
+
+Body:
+- Share fascinating facts about duck fashion shows, mixing humor and interesting insights.
+- Build tension and curiosity like a trailer to keep viewers engaged.
+- Include surprising twists and unexpected information to entertain and educate the audience.
+- Use fast pacing typical of YouTube Shorts to maintain energy and momentum throughout the video.
+
+Conclusion:
+- Wrap up with a funny conclusion that leaves viewers with a memorable takeaway.
+- Encourage viewers to like, share, and subscribe with a witty call-to-action.
+
+Word Count Range: 250-350 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

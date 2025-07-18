@@ -1,29 +1,35 @@
-# utils/key_validator.py
-
 import os
 import openai
 import requests
 
 def check_openai_key():
-    key = os.getenv("OPENAI_API_KEY", "")
+    key = os.environ.get("OPENAI_API_KEY", "")
     if not key:
+        print("❌ OpenAI key not found in environment.")
         return False
     try:
         openai.api_key = key
         openai.Model.list()
         return True
-    except Exception:
+    except Exception as e:
+        print(f"❌ OpenAI key invalid or failed to connect: {e}")
         return False
 
 def check_github_token():
-    token = os.getenv("GITHUB_TOKEN", "")
+    token = os.environ.get("GITHUB_TOKEN", "")
     if not token:
+        print("❌ GitHub token not found in environment.")
         return False
     try:
         headers = {"Authorization": f"token {token}"}
-        r = requests.get("https://api.github.com/user", headers=headers, timeout=5)
-        return r.status_code == 200
-    except Exception:
+        response = requests.get("https://api.github.com/user", headers=headers, timeout=5)
+        if response.status_code == 200:
+            return True
+        else:
+            print(f"❌ GitHub token rejected: HTTP {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"❌ GitHub token check failed: {e}")
         return False
 
 def run_all_checks():

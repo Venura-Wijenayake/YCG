@@ -1,0 +1,45 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...v1joA
+
+=== USER INPUT ===
+Serious, in-universe lore documentary tone with grimdark narration and whispered speculation — like an Imperial Archivist decoding forbidden logs.
+
+Incorporate tone ideas like: Drop this like a forbidden file; Whisper this like it could get you executed; Build this like a historical reveal; Just include; Slide this in like a final warning
+
+=== TOPIC ===
+Most Powerful Rogue Trader in 40k currently
+
+=== GPT PROMPT OUTPUT ===
+**Title: The Most Powerful Rogue Trader in Warhammer 40k Universe**
+
+**Structure:**
+1. Introduction:
+   - Drop this like a forbidden file; Whisper this like it could get you executed
+2. Background on Rogue Traders:
+   - Just include
+3. Unveiling the Most Powerful Rogue Trader:
+   - Build this like a historical reveal
+4. Speculations and Whispers:
+   - Slide this in like a final warning
+5. Conclusion:
+   - Just include
+
+**Mood:**
+- Serious
+- Grimdark
+- Mysterious
+- Whispered speculation
+
+**Voice:**
+- In-universe lore documentary tone
+- Grimdark narration
+- Decoding forbidden logs
+
+**Word Count Range:** 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

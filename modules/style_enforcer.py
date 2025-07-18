@@ -1,10 +1,11 @@
-# modules/style_enforcer.py
+def apply_signature_tone(tone_override: str = None) -> str:
+    """
+    Returns a prompt fragment that guides GPT to mimic a signature YouTube storytelling tone.
+    Optionally override with a custom tone block (e.g., 'chaotic monologue').
+    """
+    if tone_override:
+        return f"\n\nStyle Guide:\n{tone_override.strip()}\n"
 
-def apply_signature_tone():
-    """
-    Returns a prompt fragment that guides GPT to mimic the elite YouTube storytelling tone
-    based on Loris's favorite creators.
-    """
     return """
 Style Guide:
 - Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.

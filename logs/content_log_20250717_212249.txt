@@ -1,0 +1,81 @@
+=== TOPIC ===
+Why Time Travel Would Be a Terrible First Date Idea
+
+=== PROMPT ===
+**Title: "Why Time Travel Would Be a Terrible First Date Idea"**
+
+Structure:
+1. Introduction (Drop this like an intrusive thought)
+2. Soft reveal: Why time travel sounds exciting at first
+3. Build tension like a thriller: The hidden dangers of time travel
+4. Yell this like a mistake: Common time travel mishaps
+5. Just include: How time travel could ruin a first date
+6. Conclusion: Wrap up with a fast-paced summary of the risks
+
+Tone & Mood:
+- Fast-paced, paranoid inner monologue
+- Romcom character narrating their own emotional breakdown
+- Explaining quantum mechanics with a touch of humor
+- Dropping insights like intrusive thoughts
+- Soft reveals and tense moments like a thriller
+
+Word Count Range: 500-600 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+These exact phrases must appear in the script: ""What if they accidentally dated their great-great-grandparent?"", ""We kissed at the Big Bang. It felt... premature."", "They brought me to meet their ex — who hadn’t broken up with them yet.", ""I proposed before we even met. Time loops are messy."", "“Turns out, I was the villain all along.”"
+
+=== RESPONSE ===
+Title: "Why Time Travel Would Be a Terrible First Date Idea"
+Description: Explore the dangers and mishaps of time travel in the context of a disastrous first date scenario.
+Tags: Time travel, First date, Romance, Science fiction, Comedy
+
+Script:
+[INTRO]
+Narrator (fast-paced, paranoid inner monologue): Drop this like an intrusive thought.
+
+[SOFT REVEAL]
+Narrator (romcom character): At first glance, time travel sounds thrilling. The idea of exploring different eras and rewriting history is like a dream come true.
+
+[BUILD TENSION]
+Narrator (thriller-like tension): But beneath the surface lies an intricate web of hidden dangers. The fabric of time is delicate, easily torn by the slightest misstep.
+
+[YELL THIS]
+Narrator (yelling in realization): Common time travel mishaps include paradoxes, altered timelines, and unintended consequences that spiral out of control.
+
+[JUST INCLUDE]
+Narrator (musing with humor): Imagine how time travel could ruin a first date. What if they accidentally dated their great-great-grandparent? Or worse, brought you to meet their ex—who hadn’t broken up with them yet?
+
+Narrator (reflecting on a disastrous date): “We kissed at the Big Bang. It felt... premature.” 
+
+Narrator (dramatic twist): “I proposed before we even met. Time loops are messy.”
+
+[Narrator (revealing a shocking twist): “Turns out, I was the villain all along.”
+
+[CONCLUSION]
+Narrator (fast-paced summary): In the chaotic dance of time travel, even the simplest date can unravel into a catastrophic mess. The risks are too great, the consequences too unpredictable. Time, it seems, is not on the side of love.
+
+Style Guide:
+- Voice: Fast-paced, paranoid inner monologue with a touch of humor and romance.
+- Tone: Romcom character narrating their own emotional breakdown, dropping insights like intrusive thoughts.
+- Perspective: Third-person narrator, emotionally tuned to the chaos of time travel mishaps.
+- Sentences: Vary pace for dramatic effect, with punchy one-liners and flowing descriptions.
+- Use provided phrases creatively to build tension and reveal the dangers of time travel in a first date scenario.
+- End on a note of emotional resonance, highlighting the unpredictable nature of time travel and its potential impact on relationships.

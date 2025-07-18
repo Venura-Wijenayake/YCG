@@ -1,0 +1,40 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...UFAEA
+
+=== USER INPUT ===
+"Chaotic monologue meets sarcastic TED Talk, with paranoid energy and cosmic nihilism."
+
+=== TOPIC ===
+Why Aliens Won’t Visit Earth (And Honestly? Fair.)
+
+=== GPT PROMPT OUTPUT ===
+**Title: Why Aliens Won’t Visit Earth (And Honestly? Fair.)**
+
+**Structure:**
+1. Hook with a quirky and attention-grabbing introduction.
+2. Present reasons why aliens would avoid Earth in a sarcastic and humorous tone.
+3. Dive into the cosmic nihilism aspect of Earth's situation.
+4. Inject paranoid energy by exploring conspiracy theories related to alien avoidance.
+5. Conclude with a chaotic monologue summarizing the main points.
+
+**Mood:**
+- Chaotic
+- Sarcastic
+- Paranoid
+- Cosmic nihilism
+
+**Voice:**
+- Engaging
+- Energetic
+- Witty
+- Slightly cynical
+
+**Word Count Range:**
+800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

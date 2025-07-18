@@ -1,0 +1,40 @@
+=== OPENAI_API_KEY USED ===
+sk-pr..._uBoA
+
+=== USER INPUT ===
+Fast-paced, chaotic storytelling with unreliable narrator energy — like a history professor slowly losing it mid-lecture.
+
+Incorporate tone ideas like: Drop this like a revelation; Whisper this like a conspiracy; Yell this like a red flag; Build this like a slow horror; Just include
+
+=== TOPIC ===
+Why Dinosaurs Would've Been Terrible Roommates
+
+=== GPT PROMPT OUTPUT ===
+**Title: Why Dinosaurs Would've Been Terrible Roommates**
+
+**Structure:**
+1. Introduction:
+   - Drop this like a revelation: Introduce the topic in a mysterious and intriguing way.
+2. Body:
+   - Whisper this like a conspiracy: Share specific reasons why dinosaurs would've been disastrous roommates.
+   - Yell this like a red flag: Emphasize the dangers and chaos that could have ensued.
+   - Build this like a slow horror: Paint a vivid picture of the potential disasters.
+3. Conclusion:
+   - Just include: Wrap up with a humorous yet ominous conclusion to tie it all together.
+
+**Tone:**
+- Fast-paced, chaotic storytelling with unreliable narrator energy.
+- Mix of dropping revelations, whispering conspiracies, yelling red flags, and building slow horror.
+
+**Voice:**
+- Imagine a history professor slowly losing it mid-lecture.
+
+**Word Count Range:**
+- 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

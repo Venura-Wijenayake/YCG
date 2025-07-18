@@ -8,7 +8,6 @@ openai.api_key = OPENAI_API_KEY
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
-
 def interpret_style_input(user_input: str, topic: str) -> str:
     """
     Given a natural language style description and topic,
@@ -24,8 +23,8 @@ def interpret_style_input(user_input: str, topic: str) -> str:
     )
 
     user_prompt = f"""
-User style input: "{user_input}"
-Topic: "{topic}"
+User style input: "{user_input.strip()}"
+Topic: "{topic.strip()}"
 
 Now return a full prompt that tells GPT how to create a YouTube script with that style.
 Only output the prompt. Do not explain anything else.
@@ -44,14 +43,14 @@ Only output the prompt. Do not explain anything else.
 
         prompt_output = response.choices[0].message["content"].strip()
 
-        # ✅ Append strict output format
+        # 🔖 Ensure correct response format at end of prompt
         prompt_output += "\n\nRespond using this format:\n\n" \
                          "Title: ...\n" \
                          "Description: ...\n" \
                          "Tags: ...\n" \
                          "Script: ..."
 
-        # Log interaction
+        # 🧾 Log session
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         log_path = os.path.join(LOG_DIR, f"style_log_{timestamp}.txt")
         with open(log_path, "w", encoding="utf-8") as f:
@@ -72,12 +71,7 @@ Only output the prompt. Do not explain anything else.
         print(f"🔴 [Style GPT] Error during style interpretation: {e}")
         return f"""Generate a YouTube script for the topic: "{topic}".
 
-1. Title: Engaging, max 60 characters
-2. Description: 2–3 sentence summary
-3. Tags: 10–15 relevant tags
-4. Script: 200–300 word narration, informative tone
-
-Respond like this:
+Respond using this format:
 
 Title: ...
 Description: ...
