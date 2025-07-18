@@ -55,13 +55,11 @@ python main.py
 
 ```
 
-## 🖼️ Demo Screenshots
-
-### Step 1: User Prompt Flow  
-<img src="assets/images/A1.jpg" alt="Prompt Input Screenshot" width="700"/>
-
-### Step 2: Script Generation Triggered  
-<img src="assets/images/A2.jpg" alt="Script Generation Screenshot" width="700"/>
+🖼️ Demo Screenshots
+Step 1: User Prompt Flow
+<img src="https://i.imgur.com/cU22zrK.png" alt="Prompt Input Screenshot" width="700"/>
+Step 2: Script Generation Triggered
+<img src="https://i.imgur.com/JwZlTEH.png" alt="Script Generation Screenshot" width="700"/>
 
 
 
