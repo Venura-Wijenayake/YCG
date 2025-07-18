@@ -1,0 +1,58 @@
+=== OPENAI_API_KEY ===
+sk-pr...MNy8A
+
+=== TOPIC ===
+Why are Pigs so intelligent?
+
+=== PROMPT ===
+[Introduction]
+- Start with an engaging hook about the intelligence of pigs.
+- Introduce the topic: Why are pigs so intelligent?
+
+[Body]
+- Explain the different aspects of pig intelligence, such as problem-solving abilities, social behaviors, and emotional intelligence.
+- Provide examples and research findings to support the points.
+- Discuss how pig intelligence compares to other animals and why it is often underestimated.
+
+[Conclusion]
+- Summarize the key points about pig intelligence.
+- Conclude with a call-to-action to share the video and subscribe for more content.
+
+[Tone]
+- Maintain a helpful and informative tone throughout the script.
+- Use simple language and explanations to make the content accessible to a wide audience. 
+
+[Word Count Range]
+- 800-1000 words
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+Use this description instead of generating one: "Dive into the fascinating world of pig intelligence and discover the reasons behind their remarkable cognitive abilities. Explore the unique behaviors and characteristics that make pigs one of the smartest animals on the planet."
+
+Only use these tags (max 15): pigs,  animal intelligence,  pig behavior,  cognitive abilities,  smart animals,  pig facts,  animal cognition,  pig intelligence study,  pig species,  intelligent animals
+
+=== RESPONSE ===
+[INTRODUCTION]
+🐷 Have you ever considered the remarkable intelligence of pigs? 🧠 Despite common misconceptions, these animals possess a depth of cognitive abilities that often surprise researchers and animal enthusiasts alike. Today, we delve into the intriguing world of pig intelligence to unravel the mysteries behind their exceptional minds.
+
+[BODY]
+🔍 Pig intelligence encompasses a wide array of fascinating aspects, ranging from problem-solving skills to complex social behaviors and emotional intelligence. Studies have shown that pigs exhibit impressive problem-solving abilities, often outperforming dogs and even some primates in certain cognitive tasks. For example, pigs have demonstrated the capacity for understanding symbolic language and utilizing tools to access food rewards, showcasing their exceptional cognitive flexibility.
+
+🐽 Socially, pigs are highly gregarious animals that form intricate social structures within their groups. They display empathy towards their fellow herd members, showing concern and care for individuals in distress. Research has revealed that pigs possess a level of emotional intelligence that allows them to recognize and respond to the emotions of their peers, further solidifying their reputation as sensitive and perceptive creatures.
+
+🌟 When comparing pig intelligence to that of other animals, it becomes evident that these animals are often underestimated in terms of their cognitive abilities. While pigs may not receive the same level of recognition as some more commonly revered intelligent species, their capacity for problem-solving, social interaction, and emotional understanding places them among the ranks of highly intelligent creatures in the animal kingdom.
+
+[CONCLUSION]
+🐷 In conclusion, the world of pig intelligence is a captivating realm filled with surprises and revelations. From their remarkable problem-solving skills to their intricate social dynamics and emotional acuity, pigs showcase a level of intelligence that challenges traditional perceptions of animal cognition. By shedding light on the cognitive prowess of pigs, we gain a deeper appreciation for the diverse forms of intelligence present in the natural world.
+
+🔗 If you found this exploration of pig intelligence fascinating, don't forget to share this video with your friends and hit the subscribe button for more captivating insights into the wonders of the animal kingdom.

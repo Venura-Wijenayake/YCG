@@ -1,0 +1,37 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...EGkQA
+
+=== USER INPUT ===
+cinematic storytelling with suspense and a plot twist at the end
+
+=== TOPIC ===
+The mysterious disappearance of Flight MH370
+
+=== GPT PROMPT OUTPUT ===
+**Title: The Mysterious Disappearance of Flight MH370: A Cinematic Story**
+
+[Introduction]
+- Start with a gripping hook about the mysterious disappearance of Flight MH370.
+- Set the tone with suspenseful music and visuals to draw in the audience.
+
+[Act 1: The Vanishing]
+- Describe the events leading up to the disappearance of Flight MH370.
+- Create a sense of intrigue and mystery surrounding the plane's sudden disappearance.
+- Include eyewitness accounts and official statements to build the narrative.
+
+[Act 2: The Search]
+- Detail the extensive search efforts and investigations that followed the disappearance.
+- Introduce various theories and speculations about the fate of the plane.
+- Keep the audience engaged with new information and developments.
+
+[Act 3: The Plot Twist]
+- Build up suspense towards a surprising plot twist at the end of the script.
+- Reveal a shocking revelation or unexpected turn of events related to Flight MH370.
+- Leave the audience with a cliffhanger or a thought-provoking conclusion.
+
+[Conclusion]
+- Wrap up the video with a cinematic outro that leaves viewers wanting more.
+- Encourage viewers to share their thoughts and theories about the mysterious disappearance.
+- End with a call to action to subscribe for future updates on the case.
+
+Word Count Range: 800-1000 words

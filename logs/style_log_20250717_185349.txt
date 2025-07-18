@@ -1,0 +1,27 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...EGkQA
+
+=== USER INPUT ===
+serious, educational, classroom tone
+
+=== TOPIC ===
+What are the Primarchs in Warhammer 40k?
+
+=== GPT PROMPT OUTPUT ===
+**Title:**
+"What are the Primarchs in Warhammer 40k? | Explained"
+
+**Structure:**
+1. Introduction
+2. Definition of Primarchs in Warhammer 40k
+3. Background and Lore
+4. Primarchs' Role in the Universe
+5. Characteristics and Abilities
+6. Impact on the Warhammer 40k Universe
+7. Conclusion
+
+**Tone:**
+Serious and educational, maintaining a classroom-like atmosphere throughout the script. Use clear and concise language to explain complex concepts.
+
+**Word Count Range:**
+800-1000 words

@@ -1,0 +1,24 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...MNy8A
+
+=== USER INPUT ===
+emotional documentary with dramatic tone and slow pacing
+
+=== TOPIC ===
+The fall of Cadia
+
+=== GPT PROMPT OUTPUT ===
+[INTRO]
+Introduce the topic of "The fall of Cadia" with a somber and serious tone, highlighting the significance of the event in Warhammer 40,000 lore. Set the stage for the emotional journey ahead.
+
+[BODY]
+1. Provide a brief history of Cadia, emphasizing its importance as a fortress world and the first line of defense against Chaos.
+2. Describe the events leading up to the fall of Cadia, including the invasion by Abaddon the Despoiler and the epic battles that ensued.
+3. Interview witnesses or experts to capture the emotional impact of Cadia's fall on the people of the Imperium and the wider Warhammer 40,000 community.
+4. Use dramatic visuals and music to enhance the emotional storytelling, creating a sense of loss and despair.
+
+[CONCLUSION]
+Reflect on the lasting consequences of Cadia's fall and the legacy it leaves behind in the Warhammer 40,000 universe. End on a poignant note, leaving viewers with a sense of the tragedy and sacrifice involved.
+
+[OUTRO]
+Encourage viewers to like, share, and subscribe for more content exploring the lore and history of Warhammer 40,000. Thank them for watching and invite them to join the discussion in the comments.

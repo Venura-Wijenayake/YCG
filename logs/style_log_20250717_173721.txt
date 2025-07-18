@@ -1,0 +1,20 @@
+=== USER INPUT ===
+emotional documentary with dramatic tone and slow pacing -joseph splat
+
+=== GPT PROMPT OUTPUT ===
+### Script Structure:
+1. Introduction to Cadia's importance in the Warhammer 40,000 universe.
+2. Description of the catastrophic events leading to the fall of Cadia.
+3. Emotional narratives from survivors and witnesses.
+4. Impact of Cadia's fall on the Warhammer 40,000 lore.
+5. Reflection on the resilience of the Imperium in the face of devastation.
+6. Conclusion highlighting the legacy of Cadia's fall.
+
+### Mood:
+The script should evoke a sense of loss, despair, and resilience. Use emotional language to connect viewers to the tragedy of Cadia's fall.
+
+### Voice:
+Maintain a somber and reflective tone throughout the script. Speak with a sense of reverence for the fallen world of Cadia.
+
+### Word Count Range:
+1000-1200 words.

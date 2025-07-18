@@ -1,29 +1,17 @@
 from modules.generator import generate_content
 from modules.script_generator import save_output_to_file
 from modules.input_prompter import pre_prompt_flow
-from modules.script_parser import parse_output_file  # 🆕 new import
+from modules.script_parser import parse_output_file
 from utils.key_validator import run_all_checks
-
-# 🔥 New: Available content styles
-CONTENT_STYLES = [
-    "default",
-    "top_5_list",
-    "educational",
-    "shorts",
-    "product_review",
-    "comedic"
-]
 
 def main():
     print("🎬 YouTube Content Generator")
     print("============================\n")
 
-    # 🛑 Run key validation before anything else
     if not run_all_checks():
         print("\n🚫 Aborting due to invalid API keys.")
         return
 
-    # 🧠 Main prompt loop
     while True:
         print("\nWhat would you like to do?")
         print("1️⃣  Generate new content")
@@ -37,43 +25,56 @@ def main():
             return
 
         elif choice == "1":
-            # 🧠 Use new pre_prompt_flow
-            user_inputs = pre_prompt_flow(CONTENT_STYLES)
+            print("\n🟡 [Main] Collecting user input...")
+            user_inputs = pre_prompt_flow([])
             if not user_inputs:
-                continue  # aborted or empty input
+                print("❌ Input aborted or invalid.")
+                continue
+
+            print("\n🟡 [Main] Preparing to call generate_content()...")
+            print(f"🔍 Topic: {user_inputs['topic']}")
+            print(f"🔍 Style Desc: {user_inputs['style']}")
+            print(f"🔍 Tags: {user_inputs['manual_tags']}")
+            print(f"🔍 Strict tags: {user_inputs['strict_tag_limit']}")
+            print(f"🔍 Must-use: {user_inputs['must_use_phrases']}")
+            print(f"🔍 Custom Desc: {user_inputs['custom_description']}")
 
             print("\n⏳ Generating content, please wait...\n")
             result = generate_content(
                 topic=user_inputs["topic"],
-                format_type=user_inputs["style"],
+                style_description=user_inputs["style"],
                 manual_tags=user_inputs["manual_tags"],
                 strict_tag_limit=user_inputs["strict_tag_limit"],
                 custom_description=user_inputs["custom_description"],
                 must_use_phrases=user_inputs["must_use_phrases"]
             )
 
-            if result and all(result.values()):
-                print("✅ Content generated successfully!\n")
-                print("📌 Title:\n" + result['title'])
-                print("\n📝 Description:\n" + result['description'])
-                print("\n🏷️ Tags:\n" + result['tags'])
-                print("\n🎤 Script:\n" + result['script'])
+            if not result:
+                print("🔴 Generation failed — empty result.")
+                continue
 
-                # 🔒 Approval Checkpoint
-                approve = input("\n🔍 Approve this script for voice/video generation? (y/n): ").strip().lower()
-                if approve != "y":
-                    print("❌ Script rejected. Returning to main menu.")
-                    continue
+            if not result.get("script"):
+                print("⚠️ Script data missing — check section headers or prompt format.")
+                continue
 
-                save_output_to_file(
-                    topic=user_inputs['topic'],
-                    title=result['title'],
-                    tags=result['tags'],
-                    script=result['script'],
-                    description=result['description']
-                )
-            else:
-                print("❌ Failed to generate content. Please check your API key and try again.")
+            print("✅ Content generated successfully!\n")
+            print("📌 Title:\n" + result.get('title', ''))
+            print("\n📝 Description:\n" + result.get('description', ''))
+            print("\n🏷️ Tags:\n" + result.get('tags', ''))
+            print("\n🎤 Script:\n" + result['script'])
+
+            approve = input("\n🔒 Approve this script for voice/video generation? (y/n): ").strip().lower()
+            if approve != "y":
+                print("❌ Script rejected. Returning to main menu.")
+                continue
+
+            save_output_to_file(
+                topic=user_inputs['topic'],
+                title=result['title'],
+                tags=result['tags'],
+                script=result['script'],
+                description=result['description']
+            )
 
         elif choice == "2":
             filepath = input("\n📂 Enter path to the edited script file: ").strip()
@@ -88,38 +89,42 @@ def main():
                     print("❌ Regeneration canceled.")
                     continue
 
-                print("\n⏳ Regenerating based on your edits...\n")
+                print("\n🟡 Regenerating content...")
                 result = generate_content(
                     topic=parsed["topic"],
-                    format_type="default",  # can enhance later to detect or ask
+                    style_description="default structure, helpful tone",
                     custom_description=parsed["description"],
-                    must_use_phrases=[],  # future: detect key phrases from script
+                    must_use_phrases=[],
                     manual_tags=parsed["tags"].split(","),
                     strict_tag_limit=True
                 )
 
-                if result and all(result.values()):
-                    print("✅ Regenerated successfully!\n")
-                    print("📌 Title:\n" + result['title'])
-                    print("\n📝 Description:\n" + result['description'])
-                    print("\n🏷️ Tags:\n" + result['tags'])
-                    print("\n🎤 Script:\n" + result['script'])
+                if not result:
+                    print("🔴 Regeneration failed — empty result.")
+                    continue
 
-                    # 🔒 Approval Checkpoint
-                    approve = input("\n🔍 Approve this script for voice/video generation? (y/n): ").strip().lower()
-                    if approve != "y":
-                        print("❌ Script rejected. Returning to main menu.")
-                        continue
+                if not result.get("script"):
+                    print("⚠️ Regenerated script is missing.")
+                    continue
 
-                    save_output_to_file(
-                        topic=parsed['topic'],
-                        title=result['title'],
-                        tags=result['tags'],
-                        script=result['script'],
-                        description=result['description']
-                    )
-                else:
-                    print("❌ Regeneration failed.")
+                print("✅ Regenerated successfully!\n")
+                print("📌 Title:\n" + result.get('title', ''))
+                print("\n📝 Description:\n" + result.get('description', ''))
+                print("\n🏷️ Tags:\n" + result.get('tags', ''))
+                print("\n🎤 Script:\n" + result['script'])
+
+                approve = input("\n🔒 Approve this regenerated script? (y/n): ").strip().lower()
+                if approve != "y":
+                    print("❌ Rejected. Returning to main menu.")
+                    continue
+
+                save_output_to_file(
+                    topic=parsed['topic'],
+                    title=result['title'],
+                    tags=result['tags'],
+                    script=result['script'],
+                    description=result['description']
+                )
 
             except Exception as e:
                 print(f"❌ Failed to load or parse file: {e}")

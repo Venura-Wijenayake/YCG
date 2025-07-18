@@ -1,47 +1,18 @@
-import difflib
-
-VALID_FORMATS = [
-    "default",
-    "top_5_list",
-    "educational",
-    "shorts",
-    "product_review",
-    "comedic"
-]
-
-def get_fuzzy_formats(user_input: str) -> list:
-    raw_inputs = [chunk.strip().lower().replace(" ", "_") for chunk in user_input.split("+")]
-    results = []
-    for entry in raw_inputs:
-        match = difflib.get_close_matches(entry, VALID_FORMATS, n=1, cutoff=0.6)
-        if match:
-            results.append(match[0])
-        else:
-            print(f"⚠️ Unknown format: '{entry}' — skipping.")
-    return results
-
-
-def pre_prompt_flow(content_styles):
+def pre_prompt_flow(_) -> dict:
     """
     Collects all pre-generation inputs from the user.
     Returns a dictionary of user preferences.
     """
+
     print("\n🧠 Pre-Prompt Setup")
     print("====================\n")
 
-    # 🎨 Flexible format selection
-    print("💡 Enter your desired format(s) (e.g., 'shorts + top five'):")
-    format_input = input("Enter format: ").strip()
+    # 🎨 Freeform style input
+    print("💡 Describe the desired tone, pacing, and structure (e.g., 'funny, fast-paced, top five style'):")
+    style_description = input("Style description: ").strip()
 
-    formats = get_fuzzy_formats(format_input)
-    if not formats:
-        print("⚠️ No valid formats detected. Defaulting to 'default'.")
-        formats = ["default"]
-
-    print(f"\n🎯 Using format: {' + '.join(formats)}")
-    confirm = input("Are you sure? (y/n): ").strip().lower()
-    if confirm != "y":
-        print("❌ Format rejected. Returning to main menu.")
+    if not style_description:
+        print("⚠️ No style entered. Returning to main menu.")
         return None
 
     # 🧠 Topic input
@@ -79,7 +50,7 @@ def pre_prompt_flow(content_styles):
         must_use_phrases.append(phrase)
 
     return {
-        "style": formats,  # NOTE: this is now a list, not a single string
+        "style": style_description,
         "topic": topic,
         "manual_tags": manual_tags,
         "strict_tag_limit": strict_tag_limit,

@@ -1,0 +1,49 @@
+=== TOPIC ===
+Top 5 forbidden places on Earth
+
+=== PROMPT ===
+[INTRO]
+Start with an attention-grabbing introduction about forbidden places on Earth.
+Use fast-paced language to hook viewers quickly.
+
+[COUNTDOWN FORMAT]
+Create a countdown from 5 to 1 for each forbidden place.
+Include suspenseful descriptions for each location.
+Keep the pacing rapid to maintain viewer engagement.
+
+[CONCLUSION]
+End with a strong conclusion summarizing the top 5 forbidden places.
+Encourage viewers to like, share, and subscribe for more content.
+
+[WORD COUNT RANGE]
+75-100 words.
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+=== RESPONSE ===
+[INTRO]
+Embark on a riveting journey through the forbidden realms of our planet. Secretive, enigmatic, and shrouded in mystery, these forbidden places beckon the adventurous at heart. Join us as we unveil the top five forbidden locations on Earth, where the veil between the known and the unknown grows thin.
+
+[COUNTDOWN FORMAT]
+5... Hidden beneath the icy embrace of Antarctica lies the Lake Vostok, a subglacial oasis untouched by human eyes. What secrets lie dormant in its icy depths?
+
+4... Delve into the heart of the Amazon Rainforest, where the uncharted depths of the Green Inferno hold ancient mysteries and untold dangers. Dare you tread where few have ventured?
+
+3... Venture into the radioactive shadow of Chernobyl, where the desolate ruins whisper haunting tales of a world forever changed. A chilling reminder of humanity's hubris.
+
+2... Journey to North Sentinel Island, home to the reclusive Sentinelese tribe, fiercely guarding their isolation from the outside world. A forbidden paradise untouched by time.
+
+1... At the top of our list stands Area 51, a clandestine military base shrouded in conspiracy and speculation. What enigmas lie hidden within its heavily guarded confines? The truth remains elusive.
+
+[CONCLUSION]
+As we conclude our exploration of these forbidden realms, remember that the allure of the unknown beckons to the curious and the brave. Like, share, and subscribe to uncover more mysteries of our enigmatic world. Dare to venture beyond the veil of the forbidden.

@@ -1,0 +1,19 @@
+=== USER INPUT ===
+emotional documentary with dramatic tone and slow pacing
+
+=== GPT PROMPT OUTPUT ===
+### Script Prompt:
+
+[Introduction]
+Introduce the topic: "The fall of Cadia" - a tragic event in the Warhammer 40,000 universe. Set the tone with somber music and slow pacing to evoke emotions from the audience.
+
+[Background]
+Provide a brief history of Cadia, highlighting its significance in the lore and its role in defending against Chaos forces. Use dramatic language to emphasize the importance of this planet.
+
+[Rising Tension]
+Build up the tension by describing the escalating threats and the valiant efforts of the defenders. Use descriptive language to paint a vivid picture of the chaos and destruction leading up to the fall.
+
+[Cliffhanger]
+End the script with a cliffhanger, leaving the audience wanting more. Create a sense of anticipation and emotion as the fate of Cadia hangs in the balance.
+
+Word Count Range: 600-800 words

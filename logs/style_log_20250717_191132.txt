@@ -1,0 +1,33 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...UFAEA
+
+=== USER INPUT ===
+comedic and chaotic, like a rant with punchlines
+
+=== TOPIC ===
+Why Mondays are secretly evil
+
+=== GPT PROMPT OUTPUT ===
+[Structure]
+- Introduction: Introduce the topic "Why Mondays are secretly evil" in a humorous and exaggerated way.
+- Main Points: Present humorous arguments with punchlines to support the idea that Mondays are evil.
+- Rant Segment: Go on a chaotic and comedic rant about all the frustrating things associated with Mondays.
+- Conclusion: Wrap up the video with a final punchline or humorous realization about Mondays.
+
+[Mood]
+- Comedic and chaotic, like a rant with punchlines.
+- Use exaggerated humor and playful sarcasm throughout the script.
+
+[Voice]
+- Casual, energetic, and engaging tone.
+- Include witty remarks and comedic timing for punchlines.
+
+[Word Count Range]
+- 800-1000 words.
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

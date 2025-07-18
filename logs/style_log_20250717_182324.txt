@@ -1,0 +1,28 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...MNy8A
+
+=== USER INPUT ===
+default structure, helpful tone
+
+=== TOPIC ===
+Top 5 legendary Weapons in Warhammer 40k
+
+=== GPT PROMPT OUTPUT ===
+[INTRO]
+1. Brief introduction to the topic of legendary weapons in Warhammer 40k.
+2. Mention the significance of powerful weapons in the lore and gameplay.
+3. Set the tone as informative and engaging.
+
+[MAIN CONTENT]
+4. Present the list of the top 5 legendary weapons in Warhammer 40k.
+5. For each weapon, provide a brief overview of its lore, abilities, and impact.
+6. Include interesting facts or anecdotes related to each weapon.
+7. Maintain a helpful and enthusiastic tone throughout the explanations.
+
+[CONCLUSION]
+8. Summarize the importance of legendary weapons in Warhammer 40k.
+9. Encourage viewers to share their favorite weapons in the comments.
+10. End with a call-to-action for viewers to like, subscribe, and stay tuned for more Warhammer 40k content.
+
+[LENGTH]
+Word Count Range: 800-1000 words

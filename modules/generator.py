@@ -3,31 +3,32 @@
 import openai
 import os
 from utils.config import OPENAI_API_KEY
-from modules.template_manager import build_prompt
-from modules.style_enforcer import apply_signature_tone  # ✅ Inject signature tone
+from modules.style_enforcer import apply_signature_tone
+from modules.style_interpreter import interpret_style_input
+from datetime import datetime
 
-openai.api_key = OPENAI_API_KEY  # Apply key globally
+openai.api_key = OPENAI_API_KEY
+
+LOG_DIR = "logs"
+os.makedirs(LOG_DIR, exist_ok=True)
 
 def generate_content(
     topic: str,
-    format_type: str = "default",
+    style_description: str = "",
     manual_tags: list = None,
     strict_tag_limit: bool = False,
     custom_description: str = "",
     must_use_phrases: list = None
 ) -> dict:
-    """
-    Generates a full YouTube content package based on the topic and selected format style.
-    Accepts manual inputs to influence the result.
-    """
+    print("\n🟡 [Content GPT] Starting full script generation...")
+
     if manual_tags is None:
         manual_tags = []
     if must_use_phrases is None:
         must_use_phrases = []
 
-    # 🧩 Compose additional instructions
+    # 🧩 Extra Instructions
     extra_instructions = ""
-
     if must_use_phrases:
         extra_instructions += "\n\nIncorporate the following phrases or plot points into the script: "
         extra_instructions += ", ".join(f'"{p}"' for p in must_use_phrases)
@@ -42,12 +43,14 @@ def generate_content(
         else:
             extra_instructions += f"\n\nStart with these tags and add more if helpful (max 15 total): {tag_note}"
 
-    # 🧠 Build prompt with structure + tone + instructions
-    base_prompt = build_prompt(topic, format_type)
-    style_tone = apply_signature_tone()
-    prompt = base_prompt + style_tone + extra_instructions
+    # 🧠 Build Prompt
+    prompt = interpret_style_input(style_description, topic)
+    prompt += apply_signature_tone()
+    prompt += extra_instructions
 
     try:
+        print("\n🟡 [Content GPT] Sending final script generation prompt to OpenAI...")
+
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -57,31 +60,59 @@ def generate_content(
             temperature=0.7,
             max_tokens=800,
         )
+
         content = response.choices[0].message["content"]
+        print("🟢 [Content GPT] Script content received from OpenAI!")
 
-        # 📦 Parse GPT output
-        lines = content.splitlines()
+        # 📝 Log everything
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_path = os.path.join(LOG_DIR, f"content_log_{timestamp}.txt")
+        with open(log_path, "w", encoding="utf-8") as f:
+            f.write("=== TOPIC ===\n")
+            f.write(topic + "\n\n")
+            f.write("=== PROMPT ===\n")
+            f.write(prompt + "\n\n")
+            f.write("=== RESPONSE ===\n")
+            f.write(content.strip() + "\n")
+
+        # ✅ Robust Parsing
         data = {"title": "", "description": "", "tags": "", "script": ""}
-        key = None
+        current_section = None
 
-        for line in lines:
-            if line.lower().startswith("title:"):
-                key = "title"
-                data[key] = line.split(":", 1)[1].strip()
-            elif line.lower().startswith("description:"):
-                key = "description"
-                data[key] = line.split(":", 1)[1].strip()
-            elif line.lower().startswith("tags:"):
-                key = "tags"
-                data[key] = line.split(":", 1)[1].strip()
-            elif line.lower().startswith("script:"):
-                key = "script"
-                data[key] = ""
-            elif key:
-                data[key] += line.strip() + "\n"
+        for line in content.splitlines():
+            lower = line.strip().lower()
+
+            if lower.startswith("title:"):
+                current_section = "title"
+                data[current_section] = line.split(":", 1)[1].strip()
+            elif lower.startswith("description:"):
+                current_section = "description"
+                data[current_section] = line.split(":", 1)[1].strip()
+            elif lower.startswith("tags:"):
+                current_section = "tags"
+                data[current_section] = line.split(":", 1)[1].strip()
+            elif lower.startswith("script:"):
+                current_section = "script"
+                data[current_section] = ""
+            elif current_section:
+                data[current_section] += line.strip() + "\n"
+
+        # Clean up extra whitespace
+        for k in data:
+            data[k] = data[k].strip()
+
+        # 🧪 Validation Warnings
+        if not data["script"]:
+            print("🔴 [Content GPT] ❗ Script content not found in parsed response!")
+        if not data["title"]:
+            print("🟡 [Content GPT] ⚠ Title not detected.")
+        if not data["description"]:
+            print("🟡 [Content GPT] ⚠ Description not detected.")
+        if not data["tags"]:
+            print("🟡 [Content GPT] ⚠ Tags not detected.")
 
         return data
 
     except Exception as e:
-        print("❌ Error generating content:", e)
+        print(f"🔴 [Content GPT] Error generating content: {e}")
         return {}

@@ -1,0 +1,79 @@
+=== TOPIC ===
+Why the Slow Loris Is the Most Relatable Creature on Earth
+
+=== PROMPT ===
+**Title: Why the Slow Loris Is the Most Relatable Creature on Earth**
+
+**Structure:**
+1. Introduction
+- Start with an energetic and humorous introduction about the Slow Loris being the most relatable creature on earth.
+2. Chaotic Rant
+- Go on a comedic rant about the Slow Loris's quirks and behaviors, highlighting their relatable qualities.
+3. Wholesome Facts
+- Transition into sharing interesting and wholesome facts about Slow Lorises that make them endearing and relatable.
+4. Conclusion
+- Wrap up the video with a final humorous remark or call-to-action related to Slow Lorises.
+
+**Tone:**
+- Funny and chaotic energy
+- Comedic rant mixed with wholesome facts
+- Engaging and entertaining throughout
+
+**Voice:**
+- Energetic and enthusiastic
+- Playful and comedic
+- Informative yet light-hearted
+
+**Word Count Range:**
+- 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+Incorporate the following phrases or plot points into the script: "Drop this like a twist: "You thought cute meant safe? Nah, this dude’s got toxic armpits."", ""They raise their arms like they're under arrest before biting."", "→ Great for comedic timing: "Hands up! No, really — it’s attack mode."", "Riff on this: "Imagine waking up and making that face until bedtime.""
+
+Use this description instead of generating one: "An unhinged yet wholesome tribute to the slow loris — a venomous, bug-eyed ball of anxiety who moves like Monday and lives like every Zoomer wishes they could. Facts included, sanity optional."
+
+Start with these tags and add more if helpful (max 15 total): slow loris, funny animals, relatable content, nature comedy, animal facts, cute but deadly, meme animals
+
+=== RESPONSE ===
+Title: The Slow Loris: A Chaotic Ode to Relatability
+Description: An unhinged yet wholesome tribute to the slow loris — a venomous, bug-eyed ball of anxiety who moves like Monday and lives like every Zoomer wishes they could. Facts included, sanity optional.
+Tags: slow loris, funny animals, relatable content, nature comedy, animal facts, cute but deadly, meme animals
+
+Script:
+In the vast tapestry of Earth's creatures, one stands out as the epitome of relatability. Enter the Slow Loris, a pint-sized package of chaotic energy and undeniable charm. Buckle up as we embark on a wild ride through the quirks and wonders of this enigmatic creature.
+
+**Chaotic Rant**
+Picture this: a Slow Loris, with eyes wide as saucers, navigating life like a perpetual Monday. They raise their arms like they're under arrest before biting. Hands up! No, really — it’s attack mode. Imagine waking up and making that face until bedtime. Drop this like a twist: "You thought cute meant safe? Nah, this dude’s got toxic armpits." The Slow Loris doesn't play by the rules of cuteness; it's a rebel with a cause, and that cause is chaos.
+
+**Wholesome Facts**
+Beneath the madness lies a heartwarming truth. Slow Lorises are devoted parents, cradling their young with tenderness and care. Their gentle nature belies the venomous secret hidden in their armpits, a reminder that even the most adorable creatures have a dark side. But fear not, for the Slow Loris is a master of survival, blending into the shadows with stealth and grace.
+
+**Conclusion**
+As we bid farewell to the enigmatic Slow Loris, remember this: in a world full of chaos and unpredictability, there's beauty in embracing the madness. So, next time you feel like life is spiraling out of control, channel your inner Slow Loris and face it head-on with a quirky smile. And who knows, maybe you'll find a bit of solace in the delightful absurdity of it all.
+
+Style Guide:
+- Voice: Cinematic and poetic, with a touch of mystery and tragedy.
+- Tone: Confident and emotive, balancing the weight of galactic events with subtle drama.
+- Perspective: Third-person narrator, emotionally tuned to the enigmatic nature of the Slow Loris.
+- Sentences: Varied pace, mixing punchy one-liners with flowing descriptions for a cinematic effect.
+- Use provided phrases and plot points to build tension and reveal the Slow Loris's character.
+- Incorporate proper nouns and canon-specific terms to enhance the narrative.
+- Hook early with mystery and end on emotional resonance to leave a lasting impact on the audience.

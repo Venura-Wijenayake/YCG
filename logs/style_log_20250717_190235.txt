@@ -1,0 +1,25 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...EGkQA
+
+=== USER INPUT ===
+fast-paced YouTube Shorts script with countdown format
+
+=== TOPIC ===
+Top 5 forbidden places on Earth
+
+=== GPT PROMPT OUTPUT ===
+[INTRO]
+Start with an attention-grabbing introduction about forbidden places on Earth.
+Use fast-paced language to hook viewers quickly.
+
+[COUNTDOWN FORMAT]
+Create a countdown from 5 to 1 for each forbidden place.
+Include suspenseful descriptions for each location.
+Keep the pacing rapid to maintain viewer engagement.
+
+[CONCLUSION]
+End with a strong conclusion summarizing the top 5 forbidden places.
+Encourage viewers to like, share, and subscribe for more content.
+
+[WORD COUNT RANGE]
+75-100 words.

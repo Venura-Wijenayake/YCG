@@ -1,0 +1,75 @@
+=== TOPIC ===
+Why Mondays are secretly evil
+
+=== PROMPT ===
+[Structure]
+- Introduction: Introduce the topic "Why Mondays are secretly evil" in a humorous and exaggerated way.
+- Main Points: Present humorous arguments with punchlines to support the idea that Mondays are evil.
+- Rant Segment: Go on a chaotic and comedic rant about all the frustrating things associated with Mondays.
+- Conclusion: Wrap up the video with a final punchline or humorous realization about Mondays.
+
+[Mood]
+- Comedic and chaotic, like a rant with punchlines.
+- Use exaggerated humor and playful sarcasm throughout the script.
+
+[Voice]
+- Casual, energetic, and engaging tone.
+- Include witty remarks and comedic timing for punchlines.
+
+[Word Count Range]
+- 800-1000 words.
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+=== RESPONSE ===
+Title: Unveiling the Sinister Truth: Why Mondays are Secretly Evil
+Description: Join us on a comedic journey as we uncover the hidden malevolence lurking within the seemingly innocuous day of the week—Monday!
+Tags: Mondays, humor, comedy, rant, evil, fun, entertainment
+
+Script:
+[Introduction]
+Hey there, fellow sufferers of the weekly grind! Today, we are delving into the dark depths of the calendar to expose the insidious truth that Mondays are not just a day, but a malevolent force conspiring against all of us. Buckle up and prepare to have your Monday blues justified because we're about to reveal why Mondays are secretly evil!
+
+[Main Points]
+1. Mondays are so evil that even Garfield dreads them. Yes, folks, if a cynical cat despises Mondays, you know they must be diabolical!
+2. Ever noticed how your alarm clock seems to have a personal vendetta on Mondays? It's not a coincidence—it's a conspiracy orchestrated by the Monday overlords!
+3. Coffee, the elixir of life for many, loses its magic on Mondays. It's as if Mondays have cast a spell to render caffeine powerless against their dark aura.
+4. Have you ever tried to find matching socks on a Monday morning? It's like a cruel puzzle devised by the Monday masterminds to test our sanity!
+5. The traffic on Mondays? It's not just congestion—it's a malevolent force seeking to delay and frustrate us at every turn!
+
+[Rant Segment]
+But wait, there's more! Let's talk about the treacherous office microwave that always seems to malfunction on Mondays, leaving your lunch half-frozen and half-incinerated. And don't even get me started on the Monday meetings that could easily be summarized in an email!
+
+Oh, the horror of Monday mornings when even your pet goldfish seems to give you judgmental looks as if to say, "You should have called in sick today!" And let's not forget the Monday weather, which somehow always manages to be gloomier and rainier than any other day of the week!
+
+And what's the deal with Mondays making time move at a glacial pace? It's like the universe itself is in cahoots with the Monday evil forces to prolong our suffering!
+
+[Conclusion]
+In conclusion, dear viewers, Mondays are not just the start of the week; they are a malevolent entity that thrives on chaos, frustration, and misplaced car keys. So, the next time you feel the weight of Monday's evil grip, remember—you are not alone in your battle against the forces of the first day of the week. Stay strong, stay caffeinated, and may your weekends be ever in your favor!
+
+[End on a punchline]
+And remember, folks, if Monday had a face, I would punch it... but that would only make it angrier! Stay tuned for more comedic revelations and remember to keep your sense of humor handy, especially on Mondays!
+
+Style Guide:
+- Voice: Casual, energetic, and engaging with a touch of exaggerated humor.
+- Tone: Comedic and chaotic, maintaining a playful sarcasm throughout.
+- Perspective: First-person narrator engaging directly with the audience.
+- Sentences: Mix of punchy one-liners and longer descriptions for comedic effect.
+- Avoid filler phrases and maintain a humorous and entertaining flow throughout.

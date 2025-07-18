@@ -1,0 +1,18 @@
+=== USER INPUT ===
+emotional documentary with dramatic tone and slow pacing
+
+=== GPT PROMPT OUTPUT ===
+**Title:** "The Fall of Cadia: An Emotional Documentary"
+
+**Structure:**
+1. Introduction to Cadia and its significance in the Warhammer 40,000 universe.
+2. Overview of the events leading to the fall of Cadia, including the invasion by Chaos forces.
+3. Interviews with survivors or witnesses of the fall, sharing their emotional experiences.
+4. Exploration of the aftermath and impact of Cadia's fall on the galaxy.
+5. Conclusion reflecting on the legacy of Cadia and the resilience of its people.
+
+**Tone:** Dramatic, emotional, reflective
+
+**Pacing:** Slow, allowing for moments of contemplation and emotional impact
+
+**Word Count Range:** 800-1000 words

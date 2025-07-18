@@ -1,0 +1,41 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...UFAEA
+
+=== USER INPUT ===
+funny, chaotic energy, like a comedic rant mixed with wholesome facts
+
+=== TOPIC ===
+Why the Slow Loris Is the Most Relatable Creature on Earth
+
+=== GPT PROMPT OUTPUT ===
+**Title: Why the Slow Loris Is the Most Relatable Creature on Earth**
+
+**Structure:**
+1. Introduction
+- Start with an energetic and humorous introduction about the Slow Loris being the most relatable creature on earth.
+2. Chaotic Rant
+- Go on a comedic rant about the Slow Loris's quirks and behaviors, highlighting their relatable qualities.
+3. Wholesome Facts
+- Transition into sharing interesting and wholesome facts about Slow Lorises that make them endearing and relatable.
+4. Conclusion
+- Wrap up the video with a final humorous remark or call-to-action related to Slow Lorises.
+
+**Tone:**
+- Funny and chaotic energy
+- Comedic rant mixed with wholesome facts
+- Engaging and entertaining throughout
+
+**Voice:**
+- Energetic and enthusiastic
+- Playful and comedic
+- Informative yet light-hearted
+
+**Word Count Range:**
+- 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

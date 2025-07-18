@@ -1,0 +1,29 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...MNy8A
+
+=== USER INPUT ===
+default structure, helpful tone
+
+=== TOPIC ===
+Why are Pigs so intelligent?
+
+=== GPT PROMPT OUTPUT ===
+[Introduction]
+- Start with an engaging hook about the intelligence of pigs.
+- Introduce the topic: Why are pigs so intelligent?
+
+[Body]
+- Explain the different aspects of pig intelligence, such as problem-solving abilities, social behaviors, and emotional intelligence.
+- Provide examples and research findings to support the points.
+- Discuss how pig intelligence compares to other animals and why it is often underestimated.
+
+[Conclusion]
+- Summarize the key points about pig intelligence.
+- Conclude with a call-to-action to share the video and subscribe for more content.
+
+[Tone]
+- Maintain a helpful and informative tone throughout the script.
+- Use simple language and explanations to make the content accessible to a wide audience. 
+
+[Word Count Range]
+- 800-1000 words
