@@ -3,16 +3,49 @@
 import openai
 import os
 from utils.config import OPENAI_API_KEY
-from modules.template_manager import build_prompt  # 🔥 new import
+from modules.template_manager import build_prompt
+from modules.style_enforcer import apply_signature_tone  # ✅ Inject signature tone
 
-openai.api_key = OPENAI_API_KEY  # This automatically applies bearer auth
+openai.api_key = OPENAI_API_KEY  # Apply key globally
 
-
-def generate_content(topic: str, format_type: str = "default") -> dict:
+def generate_content(
+    topic: str,
+    format_type: str = "default",
+    manual_tags: list = None,
+    strict_tag_limit: bool = False,
+    custom_description: str = "",
+    must_use_phrases: list = None
+) -> dict:
     """
     Generates a full YouTube content package based on the topic and selected format style.
+    Accepts manual inputs to influence the result.
     """
-    prompt = build_prompt(topic, format_type)  # 🔥 new: dynamic prompt
+    if manual_tags is None:
+        manual_tags = []
+    if must_use_phrases is None:
+        must_use_phrases = []
+
+    # 🧩 Compose additional instructions
+    extra_instructions = ""
+
+    if must_use_phrases:
+        extra_instructions += "\n\nIncorporate the following phrases or plot points into the script: "
+        extra_instructions += ", ".join(f'"{p}"' for p in must_use_phrases)
+
+    if custom_description:
+        extra_instructions += f"\n\nUse this description instead of generating one: \"{custom_description}\""
+
+    if manual_tags:
+        tag_note = ", ".join(manual_tags)
+        if strict_tag_limit:
+            extra_instructions += f"\n\nOnly use these tags (max 15): {tag_note}"
+        else:
+            extra_instructions += f"\n\nStart with these tags and add more if helpful (max 15 total): {tag_note}"
+
+    # 🧠 Build prompt with structure + tone + instructions
+    base_prompt = build_prompt(topic, format_type)
+    style_tone = apply_signature_tone()
+    prompt = base_prompt + style_tone + extra_instructions
 
     try:
         response = openai.ChatCompletion.create(
@@ -26,10 +59,11 @@ def generate_content(topic: str, format_type: str = "default") -> dict:
         )
         content = response.choices[0].message["content"]
 
-        # 🔄 Parsing stays the same
+        # 📦 Parse GPT output
         lines = content.splitlines()
         data = {"title": "", "description": "", "tags": "", "script": ""}
         key = None
+
         for line in lines:
             if line.lower().startswith("title:"):
                 key = "title"
