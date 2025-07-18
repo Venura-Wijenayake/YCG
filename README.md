@@ -10,9 +10,9 @@ YCG turns raw prompts into fully voiced, fully edited YouTube videos — all wit
 - 🔍 **Smart Topic Selection** — choose your own or generate it on the fly  
 - 🧠 **Scriptwriting** — powered by GPT and enhanced with custom tone injection  
 - 🎙️ **Voiceover Generation** — realistic narration using Google TTS or ElevenLabs  
-- 🖼️ **Visual Assembly** — pair narration with imagery (APIs or static)  
-- 🎞️ **Video Compilation** — output clean, synced MP4s using ffmpeg  
-- 🖼️ **Optional Add-ons** — auto-thumbnailing, SEO titles, even upload automation
+- 🖼️ **Visual Assembly** — pair narration with imagery (via APIs or static fallback)  
+- 🎞️ **Video Compilation** — output clean, synced MP4s using `ffmpeg`  
+- 🖼️ **Optional Add-ons** — auto-thumbnailing, SEO titles, and upload automation
 
 ---
 
@@ -20,9 +20,9 @@ YCG turns raw prompts into fully voiced, fully edited YouTube videos — all wit
 
 - 🐍 Python
 - 🤖 OpenAI GPT (for scriptwriting)
-- 🗣️ pyttsx3, Google TTS, ElevenLabs (for voice)
+- 🗣️ pyttsx3, Google TTS, ElevenLabs (for voice generation)
 - 🎬 ffmpeg (video rendering)
-- ⚙️ YAML + modular Python (easy to configure and scale)
+- ⚙️ YAML + modular Python design (clean config + scale support)
 
 ---
 
@@ -30,7 +30,9 @@ YCG turns raw prompts into fully voiced, fully edited YouTube videos — all wit
 
 - ✅ MVP architecture scaffolded  
 - ✅ GitHub repo initialized  
-- 🔜 **Next:** Script generation module + voice layer integration
+- ✅ Script generation with style control  
+- ✅ Demo runs and prompt-to-script tested  
+- 🔜 Voice layer and final video assembly
 
 ---
 
@@ -43,7 +45,7 @@ Built to support batch pipelines, stylized series, and even auto-upload workflow
 
 ---
 
-## 📎 Quick Start (coming soon)
+## 📎 Quick Start
 
 ```bash
 git clone https://github.com/your-username/ycg.git
@@ -52,8 +54,12 @@ pip install -r requirements.txt
 python main.py
 
 
-### Step 1: User Prompt Flow
-![Prompt Input](assets/images/A1.jpg)
 
-### Step 2: Generation Starts
-![Generation Trigger](assets/images/A2.jpg)
+## 🖼️ Demo Screenshots
+
+### Step 1: User Prompt Flow  
+<img src="assets/images/A1.jpg" alt="Prompt Input Screenshot" width="700"/>
+
+### Step 2: Script Generation Triggered  
+<img src="assets/images/A2.jpg" alt="Script Generation Screenshot" width="700"/>
+
