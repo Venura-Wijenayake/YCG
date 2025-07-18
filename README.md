@@ -53,7 +53,7 @@ cd ycg
 pip install -r requirements.txt
 python main.py
 
-
+```
 
 ## 🖼️ Demo Screenshots
 
@@ -62,4 +62,6 @@ python main.py
 
 ### Step 2: Script Generation Triggered  
 <img src="assets/images/A2.jpg" alt="Script Generation Screenshot" width="700"/>
+
+
 
