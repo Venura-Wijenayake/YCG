@@ -1,0 +1,42 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...YcswA
+
+=== USER INPUT ===
+Frenzied inner monologue meets courtroom drama, with bursts of cosmic horror and sitcom timing.
+
+Incorporate tone ideas like: Drop this like a nuclear warning; Shout this like a sports announcer; Slide this in like a passive-aggressive email; Build this like a courtroom reveal; Whisper this like a bedtime story
+
+=== TOPIC ===
+Why Time Travel is for Suckers
+
+=== GPT PROMPT OUTPUT ===
+**Title: Why Time Travel is for Suckers: A Mind-Bending Revelation**
+
+**Structure:**
+1. Cold open with frenzied inner monologue introducing the topic.
+2. Transition to a courtroom drama setting for the main argument.
+3. Integrate bursts of cosmic horror elements throughout the script.
+4. Inject sitcom timing for comedic relief and engagement.
+5. Conclude with a twist delivered like a courtroom reveal.
+
+**Tone:**
+- Start with a nuclear warning energy in the introduction.
+- Use sports announcer-style enthusiasm for impactful statements.
+- Incorporate passive-aggressive email-like comments for subtle humor.
+- Slowly build suspense like a courtroom reveal.
+- Add whispers akin to a bedtime story for eerie moments.
+
+**Pacing:**
+- Quick transitions between segments to maintain viewer interest.
+- Vary pacing to match the tone changes effectively.
+- Keep the energy high throughout with strategic pauses for emphasis.
+
+**Word Count Range:**
+Between 1200-1500 words.
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

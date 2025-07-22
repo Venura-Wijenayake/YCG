@@ -1,0 +1,53 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...YcswA
+
+=== USER INPUT ===
+Absurdist TED Talk meets econ-thriller — paced like a financial horror story narrated by an overly enthusiastic banana farmer.
+
+Incorporate tone ideas like: Drop this like a TED Talk; Slide this in like a metaphor gone too far
+
+=== TOPIC ===
+Why Bananas Will Replace Bitcoin by 2040
+
+=== GPT PROMPT OUTPUT ===
+**Title: "Why Bananas Will Replace Bitcoin by 2040"**
+
+**Structure:**
+1. Introduction:
+   - Start with an attention-grabbing line like "Welcome to the wildest financial prediction of the century!"
+   - Introduce the topic and set the stage for the absurd journey ahead.
+
+2. The Rise of Bananacoin:
+   - Discuss the current state of Bitcoin and its limitations.
+   - Transition into the rise of Bananacoin, the new cryptocurrency backed by bananas.
+
+3. The Economics of Bananas:
+   - Dive into the economic significance of bananas and how they could become the new currency of the future.
+   - Slide in absurd comparisons between bananas and traditional currencies like Bitcoin.
+
+4. The Banana Farmer's Perspective:
+   - Incorporate the voice of an overly enthusiastic banana farmer to narrate the financial horror story of bananas taking over Bitcoin.
+   - Inject humor and absurdity throughout the narrative.
+
+5. The Road to 2040:
+   - Paint a picture of a world where bananas reign supreme in the financial market.
+   - End with a bold and memorable conclusion that leaves viewers both amused and intrigued.
+
+**Mood:**
+- Absurdist TED Talk meets econ-thriller.
+- Overly enthusiastic, yet slightly ominous.
+- Playful and entertaining, with a touch of satire.
+
+**Voice:**
+- Narrated by an overly enthusiastic banana farmer.
+- Drop this like a TED Talk.
+- Slide this in like a metaphor gone too far.
+
+**Word Count Range:** 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

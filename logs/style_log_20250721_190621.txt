@@ -1,0 +1,54 @@
+=== OPENAI_API_KEY USED ===
+sk-pr...YcswA
+
+=== USER INPUT ===
+Absurdist TED Talk meets econ-thriller — paced like a financial horror story narrated by an overly enthusiastic banana farmer.
+
+Incorporate tone ideas like: Drop this like a TED Talk; Slide this in like a metaphor gone too far; Might as well test this; This has a
+
+=== TOPIC ===
+Why Bananas Will Replace Bitcoin by 2040
+
+=== GPT PROMPT OUTPUT ===
+**Title: "Why Bananas Will Replace Bitcoin by 2040: A Financial Horror Story TED Talk"**
+
+**Structure:**
+1. Introduction
+   - Brief overview of the topic
+   - Intriguing hook to grab viewers' attention
+
+2. The Rise of Bananas
+   - Comparison to Bitcoin's rise
+   - Anecdotes or examples to illustrate the potential of bananas
+
+3. The Downfall of Bitcoin
+   - Use of metaphors and exaggerated language for dramatic effect
+   - Incorporate elements of an econ-thriller narrative
+
+4. The Reign of Bananas
+   - Predictions and speculations about bananas dominating the financial world
+   - Emphasize the absurdity and humor in the concept
+
+5. Conclusion
+   - Recap key points
+   - Encourage viewers to rethink the future of currency
+
+**Tone:**
+- Absurdist TED Talk style with a touch of humor
+- Engaging and enthusiastic, like an overly enthusiastic banana farmer
+- Paced like a financial horror story, building suspense and intrigue
+
+**Voice:**
+- Playful and quirky, with a hint of satire
+- Use of exaggerated language and metaphors for a dramatic effect
+- Maintain a balance between informative content and entertainment value
+
+**Word Count Range:**
+Approximately 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...

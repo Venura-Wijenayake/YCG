@@ -1,0 +1,102 @@
+=== TOPIC ===
+Why Bananas Will Replace Bitcoin by 2040
+
+=== PROMPT ===
+**Title: "Why Bananas Will Replace Bitcoin by 2040: A Financial Horror Story TED Talk"**
+
+**Structure:**
+1. Introduction
+   - Brief overview of the topic
+   - Intriguing hook to grab viewers' attention
+
+2. The Rise of Bananas
+   - Comparison to Bitcoin's rise
+   - Anecdotes or examples to illustrate the potential of bananas
+
+3. The Downfall of Bitcoin
+   - Use of metaphors and exaggerated language for dramatic effect
+   - Incorporate elements of an econ-thriller narrative
+
+4. The Reign of Bananas
+   - Predictions and speculations about bananas dominating the financial world
+   - Emphasize the absurdity and humor in the concept
+
+5. Conclusion
+   - Recap key points
+   - Encourage viewers to rethink the future of currency
+
+**Tone:**
+- Absurdist TED Talk style with a touch of humor
+- Engaging and enthusiastic, like an overly enthusiastic banana farmer
+- Paced like a financial horror story, building suspense and intrigue
+
+**Voice:**
+- Playful and quirky, with a hint of satire
+- Use of exaggerated language and metaphors for a dramatic effect
+- Maintain a balance between informative content and entertainment value
+
+**Word Count Range:**
+Approximately 800-1000 words
+
+Respond using this format:
+
+Title: ...
+Description: ...
+Tags: ...
+Script: ...
+Style Guide:
+- Voice: Gravitas-laden, serious but grounded. Reflect the weight of galactic events without melodrama.
+- Tone: Cinematic, confident, with a thread of poetic mystery or implied tragedy.
+- Perspective: Third-person narrator (omniscient, but emotionally tuned)
+- Sentences: Vary pace — mix punchy one-liners with longer, flowing descriptions.
+- Don’t invent anything. Use only what's verifiably in the provided content.
+- Never summarize casually — build drama. Every line should feel like a reveal.
+- Use proper nouns and canon-specific terms as often as possible.
+- Avoid filler phrases like "let me explain" or "you may be wondering".
+- Hook early with mystery or tension.
+- End on emotional or thematic resonance (not summary).
+
+
+These exact phrases must appear in the script: ""The banana standard isn’t just coming. It’s ripening."", ""They said crypto was volatile. Have you seen a banana market crash?"", "Oops I forgot the colon and quote mark", ""This one has no tone directive"", "colon but no quote"
+
+=== RESPONSE ===
+Title: "Why Bananas Will Replace Bitcoin by 2040: A Financial Horror Story TED Talk"
+Description: Dive into the absurd yet intriguing world where bananas take over the financial realm, replacing Bitcoin by 2040 in a satirical TED Talk that will leave you both entertained and questioning the future of currency.
+Tags: bananas, Bitcoin, finance, humor, TED Talk, future currency
+
+Script:
+[Opening Shot: A stage at a TED Talk event, with a banner reading "Why Bananas Will Replace Bitcoin by 2040: A Financial Horror Story TED Talk"]
+
+Narrator: In a world where financial landscapes shift like sand dunes in a desert, one fruit stands poised for greatness. Welcome to the TED Talk that will peel back the layers of this financial banana drama. Grab your potassium, folks, because this is a horror story that will make your investments slip!
+
+**The Rise of Bananas**
+
+Narrator: As Bitcoin soared to unprecedented heights, a quiet contender was growing in the shadows. Bananas, the unsung heroes of the fruit world, were silently amassing their potassium empire. They say a banana a day keeps the doctor away, but what about a banana a day keeping the financial woes at bay?
+
+Narrator: The banana standard isn’t just coming. It’s ripening. Picture this: instead of mining for digital gold, you could be harvesting bunches of bananas in your backyard. The future is fruitful, my friends!
+
+**The Downfall of Bitcoin**
+
+Narrator: Ah, Bitcoin. The once-revered king of the digital realm now faces a new challenger. They said crypto was volatile. Have you seen a banana market crash? The streets were slippery with regret that day.
+
+Narrator: Picture this: Wall Street traders frantically trying to sell off their digital assets, only to realize that the real currency of the future was hanging in their fruit bowls all along. Oops, I forgot the colon and quote mark. But who needs them when you have bananas, right?
+
+**The Reign of Bananas**
+
+Narrator: Fast forward to 2040. The world is a very different place. Banks have been replaced by banana stands, and financial advisors now offer tips on how to pick the perfect bunch. The stock market ticker reads not in numbers, but in shades of yellow and green.
+
+Narrator: The banana revolution is upon us. No longer just a snack, bananas have become the backbone of our economy. Forget about bull markets and bear markets. It's all about the banana split now. This one has no tone directive. It's just the truth, folks.
+
+**Conclusion**
+
+Narrator: As we wrap up this financial horror story, remember this: the future is uncertain, but one thing is clear. The world of finance is ripe for change. Will you be ready to embrace the banana standard? Colon but no quote. It's up to you to decide if you want to slip and fall or ride the potassium wave to financial glory.
+
+[Closing Shot: The stage lights dim as the audience erupts in a blend of laughter and contemplation, pondering the absurd yet strangely plausible world where bananas reign supreme.]
+
+Style Guide:
+- Voice: Playful and quirky, with a touch of satire. Engaging and enthusiastic like an overly enthusiastic banana farmer.
+- Tone: Absurdist TED Talk style with a touch of humor. Paced like a financial horror story, building suspense and intrigue.
+- Perspective: Third-person narrator with an emotionally tuned omniscient view.
+- Sentences: Vary pace with punchy one-liners and flowing descriptions.
+- Hook early with intrigue and maintain a balance between informative content and entertainment value.
+- End on a note that leaves viewers questioning the future of currency.
